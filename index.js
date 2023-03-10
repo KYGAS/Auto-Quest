@@ -48,7 +48,7 @@ module.exports = function AutoGuildquest(mod) {
 			channel: 21,
 			gm: 1,
 			name: 'Guardian Mission',
-			message: String(event.cleared + " / 40")
+			message: String(event.cleared + " / 100")
 			});
 		}
 		clr = event.cleared;
