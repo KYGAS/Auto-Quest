@@ -85,7 +85,7 @@ module.exports = function AutoGuildquest(mod) {
 		mod.send('C_REQUEST_FIELD_POINT_REWARD', 1, {})
 		setTimeout(() => {
 		mod.send('C_REQUEST_ONGOING_FIELD_EVENT_LIST', 1, {})
-	}, 2000+ Math.random()*500)
+	}, 1000+ Math.random()*250)
 };
 	function dailycredit() {
 		if (mod.settings.Daily) {
